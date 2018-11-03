@@ -1,0 +1,25 @@
+
+.egt td {
+    padding: .2em .8em;
+    border: 1px solid rgba(16,76,167,0.25);
+
+    text-align: left;
+}td, th {
+    display: table-cell;
+    vertical-align: inherit;
+         background: rgba(255, 255, 255, 0.2);
+    border: solid 2px rgba(255,255,255,.15);
+    color: white;
+}
+table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border: solid 2px rgba(255,255,255,.15);
+}
+h2{color: white
+}
+th{
+    color: white;
+
+}

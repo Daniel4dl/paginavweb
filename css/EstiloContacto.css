@@ -1,0 +1,46 @@
+h2{
+    color: white;
+    text-align: center;
+}
+p{
+    color: white;
+}
+  
+h1{
+    color:white;
+    text-align: center;
+}
+input{
+    width: 303px;
+    height: 35px;}
+textarea{
+    width:610px;
+        height:70px;
+    margin-top: 5px;
+}
+input, textarea{
+    background: rgba(255, 255, 255, 0.2);
+    border: solid 2px rgba(255,255,255,.15);
+    color:white;
+}input[type=submit]{
+    color:white;
+
+    
+}
+input[type=submit]{
+    color:white;
+
+    
+}input[type=submit]:hover{
+background-color: white;
+     color:black;
+
+    
+}
+::-webkit-input-placeholder{
+    color: white;
+   
+}
+.contactof{
+  background: rgba(0,0,0,.5);
+}
