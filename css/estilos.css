@@ -8,13 +8,14 @@
 }
 
 header{
+  position: sticky;
     width: 100%;
     height: 150px;
     background: rgb(0, 196, 255, 0.48);
 }
 
 header:hover{
-    background: rgb(255, 152, 0,0.48);
+    /* background: rgb(255, 152, 0,0.48); */
     -webkit-transition: all 300ms;
     transition: all 300ms;
 }
@@ -74,10 +75,8 @@ header:hover{
 }
 
 .header2{
-    position: fixed;
     top: -100px;
     background: rgba(255, 152, 0, 0.8);
-    
 }
 
 .icon-menu{
@@ -102,7 +101,7 @@ main{
 
 main img{
     width: 100%;
-    
+
 }
 
 main h2{
@@ -119,28 +118,28 @@ main p{
 }
 
 @media screen and (max-width: 768px){
-    
+
     header{
         position: fixed;
         top: 0;
         height: 60px;
     }
-    
+
     .header2{
         position: fixed;
         top: 0px;
         height: 60px;
-    
+
     }
-    
+
     main{
         margin-top: 80px;
     }
     .cuadro{
        width:90%;
-     display:block; 
+     display:block;
     margin:auto;
-    
+
     }
     .nom{
         width:100%;
@@ -153,7 +152,7 @@ main p{
     .content-menu img{
         display: none;
     }
-    
+
     .icon-menu{
         display: block;
         position: fixed;
@@ -179,8 +178,8 @@ main p{
         font-family: 'Roboto', sans-serif;
         color: white;
     }
-    
-    
+
+
     .menu{
         width: 400px;
         position: absolute;
@@ -190,27 +189,27 @@ main p{
         top: 40px;
         -webkit-transition: all 100ms;
         transition: all 100ms;
-        
+
     }
-    
+
     .menu ul{
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
         -ms-flex-direction: column;
         flex-direction: column;
     }
-    
+
     .menu ul li{
         padding: 5px;
     }
     .menu ul li a{
         color: black;
-        display: block;        
+        display: block;
     }
-    
+
     #check:checked ~ .menu{
-       left: 0px; 
-        -webkit-transition: all 300ms; 
+       left: 0px;
+        -webkit-transition: all 300ms;
         transition: all 300ms;
     }
 }
@@ -222,101 +221,11 @@ main p{
 
 .contenedor{
     width:75%;
-     display:block; 
+     display:block;
     margin:auto;
-    
-    
+
+
 }
 .lavado{
      background: rgba(0,0,0,.5);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
